@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="media.js"></script>
+
+    <title>Calculadora HTML + CSS + JS</title>
+  </head>
+  <body>
+    <div class="caixa-principal">
+      <div class="calculadora">
+        <section class="linha-6">
+          <button id="">%</button>
+          <button id="botao-0">0</button>
+          <button>,</button>
+          <button id="botao-igual">=</button>
+        </section>
+
+        <section class="linha-5">
+          <button id="botao-1">1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>+</button>
+        </section>
+
+        <section class="linha-4">
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>-</button>
+        </section>
+
+        <section class="linha-3">
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>*</button>
+        </section>
+
+        <section class="linha-2">
+          <button>Apagar</button>
+          <button class="botao-limpar" onClick="limparBotao(zerar)">C</button>
+          <button>CE</button>
+          <button>/</button>
+        </section>
+
+        <section class="linha-1"></section>
+
+        <div class="tela-exibicao">
+          <input
+            type="number"
+            id="input-tela-exibicao"
+            class="input-exibicao"
+          />
+        </div>
+      </div>
+    </div>
+    <section class="segunda-pagina">
+      <div class="container">
+        <div class="item-um"></div>
+        <div class="item-dois"></div>
+        <div class="item-tres"></div>
+      </div>
+    </section>
+  </body>
+</html>
